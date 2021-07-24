@@ -114,6 +114,11 @@
   }
   .details {
     &-container {
+      .back-search {
+        &__button {
+          background-color: $white;
+        }
+      }
       .action {
         &-container {
           position: fixed;
